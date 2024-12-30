@@ -1,0 +1,27 @@
+.table {
+	font-size: 10px;
+}
+
+.table__head {
+	display: flex;
+	justify-content: space-between;
+	margin: 25px 10px 20px 10px;
+}
+
+.table__date {
+	padding: 13px 10px;
+	background-color: #F4F6FF;
+}
+
+.table__row {
+	display: flex;
+	justify-content: space-between;
+	padding: 13px 20px 13px 10px;
+	border-bottom: 1px solid #A2A3A8;
+	&	:nth-child(n+2) {
+		margin-right: 75px;
+	}
+	& :nth-child(n+4) {
+		margin: 0 0 0 0;
+	}
+}

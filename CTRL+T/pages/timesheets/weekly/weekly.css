@@ -1,0 +1,18 @@
+.table__head {
+	justify-content: end;
+	gap: 90px;
+}
+
+.head__week {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 35px;
+}
+
+.body__time {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30x;
+}

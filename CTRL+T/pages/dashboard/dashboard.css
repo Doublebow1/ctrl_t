@@ -1,0 +1,167 @@
+/*head */
+.head {
+	display: flex;
+	justify-content: space-between;
+	padding: 53px 0 50px 0;
+}
+
+.head__title {
+	font-weight: 400;
+}
+
+.head__widgets {
+	position: relative;
+}
+
+.widgets-nav {
+	font-family: Poppins;
+	padding: 10px 13px;
+	font-size: 10px;
+	line-height: 15px;
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+	background-color: #1A75F9;
+	transition: box-shadow 0.3s ease;
+}
+.widgets-nav:hover {
+	box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.widgets-menu {
+	display: none;
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 150px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 10;
+}
+.show {
+	display: block;
+}
+
+.widgets-menu__sm,
+.widgets-menu__lg {
+	border-bottom: 1px solid #D9D9D9;
+	padding: 10px 30px 32px 10px;
+}
+
+.menu__title {
+	color: #C8C8C8;
+	font-size: 10px;
+}
+
+.sm-menu__item,
+.lg-menu__item {
+	display: flex;
+	gap: 2px;
+	font-size: 13px;
+	margin-top: 12px;
+}
+
+
+/* small widgets */
+.small-widgets {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	text-transform: uppercase;
+}
+
+.sm-widget {
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	width: 358px;
+	height: 105px;
+	padding: 10px;
+}
+
+.sm-widget__left {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.sm-widget__right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.sm-widget__name {
+	display: flex;
+	gap: 3px;
+	color: #B6B6B5;
+}
+
+.sm-widget__value {
+	font-size: 20px;
+	color: #343434;
+}
+
+.sm-widget__status {
+	display: flex;
+	gap: 4px;
+	color: #D60000;
+	align-items: center;
+}
+
+/* large widgets */
+.large-widgets {
+	display: flex;
+	gap: 15px;
+	margin-top: 35px;
+}
+
+.lg-widget {
+	display: flex;
+	flex-direction: column;
+	gap: 23px;
+	width: 49%;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+	padding: 18px 15px;
+}
+
+.lg-widget__head {
+	display: flex;
+	justify-content: space-between;
+}
+
+.user-block__head {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.member {
+	display: flex;
+	gap: 3px;
+}
+.member > img {
+	height: 100%;
+	width: 100%;
+}
+
+.user-block__body {
+	display: flex;
+	gap: 10px;
+}
+.member__activity {
+	position: relative;
+}
+
+.member__efficiency{
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	background-color: red;
+	color: #fff;
+	padding: 0 3px;
+	border-radius: 5px;
+}

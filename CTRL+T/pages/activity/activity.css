@@ -1,0 +1,54 @@
+.main__title {
+	font-weight: 400;
+	font-size: 22px;
+	margin: 70px 0 30px;
+}
+
+.activity__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+	margin-bottom: 50px;
+}
+
+.activity__date {
+	display: flex;
+	gap: 10px;
+}
+.activity__date > button {
+	background-color: #D9D9D9;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.date__arrow > img {
+	padding: 0 5px;
+	text-align: center;
+}
+
+.date__date {
+	display: flex;
+	align-items: center;
+	gap: 29px;
+}
+
+.activity__filter {
+	display: flex;
+	gap: 18px;
+}
+
+.filter__title {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.filter__button {
+	padding: 11px 13px;
+	border-radius: 5px;
+	background-color: #D9D9D9;
+	& img {
+		margin-left: 5px;
+		/* transform: rotate(90deg); */
+	}
+}

@@ -1,0 +1,103 @@
+.display-none {
+	display: none;
+}
+
+.daily-total {
+	margin-bottom: 23px;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.daily-worktime {
+	color: #52A6F7;
+}
+
+.time__sections {
+	border-left: 2px solid #A2A3A8;
+	padding: 0 0 0 10px;
+}
+
+.time__section {
+	position: relative;
+	color: #343434;
+	font-size: 9px;
+	padding-bottom: 30px;
+}
+
+.part__total {
+	display: flex;
+	gap: 10px;
+}
+
+.part__time {
+	color: #8D8D8D;
+}
+.part__time span {
+	color: #343434;
+}
+
+.time__screenshots {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	padding-left: 10px;
+}
+
+.no-activity {
+	padding: 10px 56px;
+	height: 34px;
+	margin-top: 60px;
+	border-radius: 8px;
+	background-color: #EBEDEE;
+	color: #8D8D8D;
+}
+
+.time__screenshot {
+	margin-top: 20px;
+}
+.time__screenshot p {
+	margin: 7px 0 5px 0;
+}
+
+.screenshot-circle {
+	position: absolute;
+	left: -15px;
+	top: 0px;
+}
+
+.time__role {
+	margin: 0 22px;
+	padding: 3px 48px;
+	background-color: #F0F2F4;
+	border-radius: 8px;
+}
+
+.screen__card {
+	width: 160px;
+	background-color: #fafafa;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+}
+
+.card__text {
+	padding: 5px 10px;
+	text-align: center;
+	color: #8D8D8D;
+}
+
+.card__time {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.screenshot__count {
+	text-align: center;
+	& img{
+		margin: 0 3px 0 0;
+	}
+}
+
+.screenshot__efficiency {
+	margin-top: 10px;
+}
